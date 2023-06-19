@@ -38,4 +38,4 @@ function textToBinary(input) {
 
 function binaryToText(input) {
   return input.split(' ').map(binary => String.fromCharCode(parseInt(binary, 2))).join('');
-}
+                             }
